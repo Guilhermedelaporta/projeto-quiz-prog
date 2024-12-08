@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz interativo para programadores</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <h1>Quiz interativo para <strong>programadores</strong></h1>
       <p>
-        Teste seus conhecimentos em programação e veja qual pontuação você
-        consegue fazer!
+        <i
+          >Teste seus conhecimentos em programação e veja qual a pontuação você
+          consegue fazer!</i
+        >
       </p>
     </header>
     <main>
@@ -23,16 +26,25 @@
         </p>
         <p>
           Você encontrará diferentes tipos de perguntas, incluindo múltipla
-          escolha, texto e perguntas de data. <br> /><i
+          escolha, texto e perguntas de data. <br /><i
             >Desafie-se com este quiz!</i
           >
         </p>
         <p>
           Você poderá encontrar alguns acrônimos como
-          <em
-            ><abbr title="HperText Markup Language"><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></abbr> e
-            <abbr title="Cascading Style Sheets"><a href="https://www.w3schools.com/css/" target="_blank">CSS</a></abbr></em
-          >, que são comumente usados em questões relacionadas
+
+          <abbr title="HperText Markup Language"
+            ><a href="https://www.w3schools.com/html/" target="_blank"
+              >HTML</a
+            ></abbr
+          >
+          e
+          <abbr title="Cascading Style Sheets"
+            ><a href="https://www.w3schools.com/css/" target="_blank"
+              >CSS</a
+            ></abbr
+          >
+          , que são comumente usados em questões relacionadas
           <i>ao deselvolvimento web</i>
         </p>
       </section>
@@ -137,10 +149,8 @@
         </h2>
         <figure>
           <img
-            src="/img/img-py.png"
+            src="/img/img-ling-prog.png"
             alt="Logotipo de uma linguagem de programação"
-            width="80px"
-            height="80px"
           />
           <figcaption>
             Figura 1: Logotipo de uma linguagem de programação
@@ -155,7 +165,7 @@
       </section>
       <!--Tabela de pontuação-->
       <section>
-        <h2>Tabel de pontuação</h2>
+        <h2>Tabela de pontuação</h2>
         <table border="2">
           <thead>
             <tr>
@@ -185,7 +195,7 @@
           <tfoot>
             <tr>
               <td colspan="2">
-                Boa Sorte na próxima. Estude mais para atingir 10 pontos
+                Boa Sorte na próxima. Estude mais para melhorar
               </td>
             </tr>
           </tfoot>
@@ -210,15 +220,22 @@
       </section>
       <!--Formulário de Feedback-->
       <section>
-        <h2>Nós dê o seu feedback</h2>
+        <h2>Deixe aqui o seu feedback</h2>
         <form>
           <fieldset>
             <legend>Informações de contato</legend>
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" />
+            <input type="text" id="nome" name="nome" class="input-feedback" />
+            <br />
             <br />
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="input-feedback"
+            />
+            <br />
             <br />
 
             <label for="comentarios">Comentários:</label>
@@ -229,15 +246,18 @@
               rows="4"
               cols="50"
               placeholder="Digite aqui o que achou sobre o Quiz "
-            ></textarea><br>
+            ></textarea
+            ><br />
             <button>Envie o Feedback</button>
           </fieldset>
         </form>
       </section>
     </main>
     <footer>
-        <p>&copy Quiz de programadores. todos os direitos reservados</p>
-        <p></p>
+      <p class="paragrado-footer">
+        &copy Quiz de programadores. todos os direitos reservados
+      </p>
+      <p></p>
     </footer>
   </body>
 </html>

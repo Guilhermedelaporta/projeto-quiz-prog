@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5f9ea0;
+  color: Cyan;
+  font-weight: 400;
+}
+
+header {
+  text-align: center;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+  background-color: navy;
+}
+
+h1 {
+  padding-bottom: 0.4375em;
+}
+
+main {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  gap: 3.75em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375em;
+}
+
+a {
+  text-decoration: none;
+  color: navy;
+}
+
+h2 {
+  color: navy;
+  font-size: 22px;
+}
+
+input [type="radio"],
+input[type="checkbox"] {
+  accent-color: Cyan;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+  width: 100%;
+  padding: 0.625em;
+  border: 1px solid Cyan;
+  outline: none;
+  border-radius: 0.3125em;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: navy;
+}
+
+select {
+  cursor: pointer;
+  background-color: cyan;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid navy;
+}
+
+th {
+  background-color: navy;
+  color: #f8f8ff;
+  padding: 2.5em;
+  text-align: center;
+  font-size: 25px;
+}
+
+td {
+  color: navy;
+  padding: 2.5em;
+  text-align: center;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+tfoot td {
+  background-color: navy;
+  color: #f8f8ff;
+}
+
+details {
+  background-color: navy;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+summary {
+  color: Cyan;
+  margin: 0.9375em;
+  cursor: pointer;
+}
+
+ol {
+  margin-left: 1.25em;
+  padding: 0.9375em;
+}
+
+ol li {
+  margin-top: 0.9375em;
+  padding: 0.3125em;
+  color: Cyan;
+}
+
+fieldset {
+  border: 4px solid black;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 0.3125em;
+  color: black;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0.3125em;
+  font-size: 20px;
+  color: black;
+}
+
+textarea {
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid cyan;
+}
+
+textarea::placeholder {
+  color: cyan;
+}
+
+button {
+  background-color: black;
+  color: cyan;
+  padding: 0.625em 1.25em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paragrado-footer {
+  padding: 10px;
+  background-color: navy;
+  color: Cyan;
+  text-align: center;
+}
+
+figcaption {
+  color: white;
+}
